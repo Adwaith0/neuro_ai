@@ -1,73 +1,111 @@
-# Welcome to your Lovable project
+# Mindful Link AI
 
-## Project info
+## 🧠 AI-Powered Assistive Technology for Autism Support
 
-**URL**: https://lovable.dev/projects/30a901fa-8be4-41ba-b5e7-44fbfa2f7c81
+Mindful Link AI is a comprehensive web application that provides advanced machine learning tools for autism support, featuring risk assessment, speech emotion recognition, and sign language translation. Built with compassion and accessibility in mind.
 
-## How can I edit this code?
+## ✨ Features
 
-There are several ways of editing your application.
+- **Autism Risk Assessment**: Evidence-based screening questionnaire using M-CHAT methodology
+- **Speech Emotion Recognition**: AI-powered analysis of emotional patterns in speech
+- **Sign Language Recognition**: Visual recognition system for basic sign language gestures
+- **Personal Dashboard**: Comprehensive view of assessment results and progress tracking
+- **Responsive Design**: Fully accessible across all devices
 
-**Use Lovable**
+## 🚀 Getting Started
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/30a901fa-8be4-41ba-b5e7-44fbfa2f7c81) and start prompting.
+### Prerequisites
 
-Changes made via Lovable will be committed automatically to this repo.
+- Node.js (v16 or higher)
+- npm or yarn package manager
 
-**Use your preferred IDE**
+### Installation
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+1. Clone the repository:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+```bash
+git clone https://github.com/Adwaith0/mindful-link-ai.git
+```
 
-Follow these steps:
+2. Navigate to the project directory:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+```bash
+cd mindful-link-ai
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+3. Install dependencies:
 
-# Step 3: Install the necessary dependencies.
-npm i
+```bash
+npm install
+```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+4. Start the development server:
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+5. Open your browser and visit `http://localhost:8080`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🛠️ Technologies Used
 
-**Use GitHub Codespaces**
+- **Frontend Framework**: React 18 with TypeScript
+- **Build Tool**: Vite
+- **UI Components**: shadcn/ui + Radix UI
+- **Styling**: Tailwind CSS
+- **Routing**: React Router DOM
+- **Form Handling**: React Hook Form with Zod validation
+- **Charts**: Recharts
+- **Icons**: Lucide React
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📁 Project Structure
 
-## What technologies are used for this project?
+```
+src/
+├── components/          # Reusable UI components
+│   ├── ui/             # shadcn/ui components
+│   └── Layout/         # Layout components
+├── hooks/              # Custom React hooks
+├── lib/                # Utility functions
+├── pages/              # Page components
+│   ├── Home.tsx        # Landing page
+│   ├── Dashboard.tsx   # User dashboard
+│   ├── Questionnaire.tsx # Assessment questionnaire
+│   ├── Speech.tsx      # Speech emotion analysis
+│   └── SignLanguage.tsx # Sign language recognition
+└── assets/             # Static assets
+```
 
-This project is built with:
+## 🎯 Available Scripts
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run build:dev` - Build for development
+- `npm run lint` - Run ESLint
+- `npm run preview` - Preview production build
 
-## How can I deploy this project?
+## 🤝 Contributing
 
-Simply open [Lovable](https://lovable.dev/projects/30a901fa-8be4-41ba-b5e7-44fbfa2f7c81) and click on Share -> Publish.
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-## Can I connect a custom domain to my Lovable project?
+1. Fork the project
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-Yes, you can!
+## 📄 License
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 👨‍💻 Author
+
+**Adwaith0**
+
+- GitHub: [@Adwaith0](https://github.com/Adwaith0)
+
+## 🙏 Acknowledgments
+
+- Built with modern web technologies for accessibility and performance
+- Designed with input from accessibility experts and medical professionals
+- Focused on privacy-first approach for sensitive user data
